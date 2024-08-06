@@ -16,8 +16,8 @@ def login(request):
     return render(request, 'login_page2.html')
 
 
-def main_page(request):
-    return render(request, 'main_page.html')
+def index(request):
+    return render(request, 'index.html')
 
 def register(request):
     if request.method == 'POST':
